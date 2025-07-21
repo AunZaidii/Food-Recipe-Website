@@ -1,24 +1,27 @@
-*{
+* {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
   position: fixed;
-  z-index: 1000;
   top: 0;
   left: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 50px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0px;
-  background-color: #ce0c0c00; 
-  
+  background-color: #ffffff;
+  z-index: 1000; 
+  padding: 0 20px; 
 }
 
 .nav-logo {
@@ -35,14 +38,13 @@
 .nav-items {
   display: flex;
   align-items: center;
-  justify-content: center; 
-
+  justify-content: center;
 }
 
 .nav-items ul {
   display: flex;
   list-style: none;
-  gap: 10px; 
+  gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -54,59 +56,52 @@
 
 .nav-items a {
   text-decoration: none;
-  color: #333333; 
+  color: rgb(0, 0, 0); 
   font-weight: 700;
   transition: color 0.3s ease;
   padding: 5px 10px;
 }
 
 .nav-items a:hover {
-  color: #ffb52c; 
+  color: #ffb52c;
 }
 
-.nav-button {
+.nav-buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 10px;
 }
-.login-button{
+
+.login-button, 
+.signup-button {
   padding: 8px 16px;
   font-weight: bold;
-  background-color: #ffffff; 
-  color: #ffb52c;
+  background-color: #ffb52c;
+  color: #ffffff;
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.login-button:hover {
-  opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
-.signup-button{
-  padding: 8px 16px;
-  font-weight: bold;
-  background-color: #ffffff; 
-  color: #ffb52c;
-  border-radius: 4px;
-  margin-right: 20px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
+.login-button:hover,
 .signup-button:hover {
   opacity: 0.7;
+  transform: translateY(-1px);
 }
 
-.hero-section{
-
+.hero-section {
+  margin-top: 50px; 
 }
-.hero-image-div{
 
+.hero-image-div {
+  width: 100%;
+  overflow: hidden;
 }
-.hero-image{
-width: 1260px;
-top: 0;
-margin-top: -10px;
+
+.hero-image {
+  top: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0px;
 }
