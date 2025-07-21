@@ -142,3 +142,52 @@ body {
   opacity: 0.7;
   transform: translateY(-1px); 
 }
+
+.add-recipe-hero{
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.add-recipe-image-div{
+margin-left: 50px
+}
+.add-recipe-image{
+width: 300px;
+border-radius: 4px;
+margin-left: 10px;
+}
+.add-recipe-info-div{
+justify-content: center;
+margin-left: 100px;
+margin-top: 40px;
+}
+.add-recipe-heading{
+font-size: 40px;
+margin-left: 110px;
+margin-bottom: 20px;
+}
+.add-recipe-description{
+font-size: 20px;
+margin-left: 30px;
+margin-bottom: 30px;
+width: 600px;
+
+}
+.add-recipe-button{
+  font-size: 15px;
+  padding: 16px 32px;
+  margin-left: 180px;
+  font-weight: bold;
+  background-color: #ffb52c;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
+}
+.add-recipe-button:hover{
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
