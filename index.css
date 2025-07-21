@@ -18,7 +18,7 @@
   justify-content: space-between;
   padding: 0 0px;
   background-color: #ce0c0c00; 
-  x
+  
 }
 
 .nav-logo {
@@ -27,6 +27,7 @@
 }
 
 .logo {
+  margin-left: 10px;
   width: 200px;
   height: auto;
 }
@@ -71,8 +72,8 @@
 .login-button{
   padding: 8px 16px;
   font-weight: bold;
-  background-color: #ffb52c; 
-  color: white;
+  background-color: #ffffff; 
+  color: #ffb52c;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -85,8 +86,8 @@
 .signup-button{
   padding: 8px 16px;
   font-weight: bold;
-  background-color: #ffb52c; 
-  color: white;
+  background-color: #ffffff; 
+  color: #ffb52c;
   border-radius: 4px;
   margin-right: 20px;
   border: none;
@@ -101,6 +102,11 @@
 .hero-section{
 
 }
-.hero-image{
+.hero-image-div{
 
+}
+.hero-image{
+width: 1260px;
+top: 0;
+margin-top: -10px;
 }
