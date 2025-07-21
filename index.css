@@ -91,6 +91,7 @@ body {
 
 .hero-section {
   margin-top: 50px; 
+  margin-bottom: 50px;
 }
 
 .hero-image-div {
@@ -166,6 +167,7 @@ margin-top: 40px;
 font-size: 40px;
 margin-left: 110px;
 margin-bottom: 20px;
+font-weight: bold;
 }
 .add-recipe-description{
 font-size: 20px;
