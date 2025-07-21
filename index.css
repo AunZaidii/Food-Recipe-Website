@@ -99,9 +99,28 @@ body {
 }
 
 .hero-image {
+  position: absolute;
   top: 0;
   width: 100%;
   height: auto;
   display: block;
   margin-top: 0px;
+}
+.signup-hero-button{
+  font-size: 20px;
+  position: relative;
+  margin-top: 370px;
+  margin-left: 250px;
+  padding: 15px 32px;
+  font-weight: bold;
+  background-color: #ffb52c;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.signup-hero-button:hover{
+  opacity: 0.7;
+  transform: translateY(-1px);
 }
