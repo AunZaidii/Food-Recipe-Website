@@ -225,9 +225,6 @@ row-gap: 20px;
   border-radius: 5px;
   
 }
-.recipes-section-flexbox-image{
-
-}
 .recipes-section-flexbox-image-recipe{
 width: 300px;
 }
@@ -237,12 +234,6 @@ width: 300px;
 .recipes-section-flexbox-heading-div{
 margin-top: 30px;
 margin-left: 10px;
-}
-.recipes-section-flexbox-heading{
-
-}
-.pancake-recipe-heading{
-
 }
 
 .recipes-section-flexbox-info-div {
