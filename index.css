@@ -194,13 +194,19 @@ width: 600px;
   transform: translateY(-2px);
 }
 .recipes-section{
-
+margin-top: 100px;
+}
+.recipes-section-heading-info{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .recipes-section-heading{
-
+margin-left: 50px;
+font-size: 30px;
 }
 .recipes-section-viewmore{
-
+margin-right: 30px;
 }
 .recipes-section-grid{
 
@@ -231,7 +237,7 @@ width: 50px;
 
 }
 .recipes-section-flexbox-pfp{
-  
+
 }
 .recipes-section-flexbox-description{
 
