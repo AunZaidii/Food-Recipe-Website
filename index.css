@@ -195,36 +195,48 @@ width: 600px;
 }
 .recipes-section{
 margin-top: 100px;
+margin-left: 150px;
+margin-right: 190px;
+margin-bottom: 50px;
 }
 .recipes-section-heading-info{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-bottom: 50px;
 }
-.recipes-section-heading{
-margin-left: 50px;
+.recipes-section-heading{  
 font-size: 30px;
 }
 .recipes-section-viewmore{
-margin-right: 30px;
+color: #ffb52c;
 }
 .recipes-section-grid{
-
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px;
+row-gap: 20px;
 }
-.recipes-section-flexbox{
-
+.recipes-section-flexbox {
+  width: 300px; 
+  border: 1px;
+  border-color: rgb(218, 217, 217);
+  border-style: solid;
+  border-radius: 5px;
+  
 }
 .recipes-section-flexbox-image{
 
 }
-.recipes-section-flexbox-image-pancake{
-width: 50px;
+.recipes-section-flexbox-image-recipe{
+width: 300px;
 }
 .recipes-section-flexbox-stars{
 
 }
 .recipes-section-flexbox-heading-div{
-
+margin-top: 30px;
+margin-left: 10px;
 }
 .recipes-section-flexbox-heading{
 
@@ -233,12 +245,34 @@ width: 50px;
 
 }
 
-.recipes-section-flexbox-info-div{
-
+.recipes-section-flexbox-info-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 10px; 
+  width: 100%; 
+  margin-top: 10px; 
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
-.recipes-section-flexbox-pfp{
-
+.recipes-section-flexbox-info-div-name {
+  font-size: 12px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  flex-shrink: 1; 
 }
-.recipes-section-flexbox-description{
+.recipes-section-flexbox-pfp {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-top: 5px;
+}
 
+.recipes-section-flexbox-calories {
+  font-size: 12px;
+  white-space: nowrap; 
+  flex-shrink: 0; 
+  margin-left: 80px;
 }
